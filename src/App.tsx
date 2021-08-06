@@ -51,7 +51,7 @@ const Customize: React.FC = () => {
   }, [handleGetData]);
 
   const handleSubmit = () => {
-    deleteMutation.mutate(deleteItemId);
+    if (deleteItemId) deleteMutation.mutate(deleteItemId);
     setIsVisible(false);
     setDeleteItemId(0);
   };
