@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+  <g id="グループ_25946" data-name="グループ 25946" transform="translate(-0.385 -0.414)">
+    <rect id="長方形_23333" data-name="長方形 23333" width="23" height="23" transform="translate(0.385 0.414)" fill="none"/>
+    <g id="グループ_25946-2" data-name="グループ 25946-2" transform="translate(10.68 8.569)">
+      <line id="線_4785" data-name="線 4785" y2="5.17" transform="translate(1.206)" fill="none" stroke="#b60081" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+      <g id="楕円形_2707" data-name="楕円形 2707" transform="translate(0 7.324)">
+        <ellipse id="Ellipse_2714" data-name="Ellipse 2714" cx="1.206" cy="1.206" rx="1.206" ry="1.206" fill="#97889b"/>
+        <ellipse id="Ellipse_2715" data-name="Ellipse 2715" cx="0.603" cy="0.603" rx="0.603" ry="0.603" transform="translate(0.603 0.603)" fill="#97889b"/>
+      </g>
+    </g>
+    <path id="Path_41683" data-name="Path 41683" d="M-56.328,3.417l-8.637,14.776a1.658,1.658,0,0,0,1.453,2.487h17.274a1.658,1.658,0,0,0,1.453-2.487L-53.421,3.417A1.688,1.688,0,0,0-56.328,3.417Z" transform="translate(66.761 -0.206)" fill="none" stroke="#b60081" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"/>
+  </g>
+</svg>

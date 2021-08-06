@@ -1,0 +1,104 @@
+@import "../../styles/index.scss";
+
+.a-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  @mixin icon-shape($name) {
+    &--#{$name} {
+      background-image: url("../../images/icons/#{$name}.svg");
+    }
+  }
+
+  @mixin icon-size($name, $pc, $sp) {
+    &--#{$name} {
+      width: $pc;
+      height: $pc;
+
+      @include sp() {
+        width: $sp;
+        height: $sp;
+      }
+    }
+  }
+
+  @mixin icon($name, $pc, $sp) {
+    @include icon-shape($name);
+    @include icon-size($name, $pc, $sp);
+  }
+
+  @include icon("add-item", 16px, 16px);
+  @include icon("delete-item", 24px, 24px);
+  @include icon("home", 24px, 28px);
+  @include icon("home-selected", 24px, 28px);
+  @include icon("attendance", 24px, 28px);
+  @include icon("attendance-selected", 24px, 28px);
+  @include icon("application", 24px, 28px);
+  @include icon("application-selected", 24px, 28px);
+  @include icon("bell", 24px, 28px);
+  @include icon("bell-selected", 24px, 28px);
+  @include icon("communication", 24px, 28px);
+  @include icon("communication-selected", 24px, 28px);
+  @include icon("help-menu", 24px, 28px);
+  @include icon("help-menu-selected", 24px, 28px);
+  @include icon("safty-confirmation", 24px, 28px);
+  @include icon("safty-confirmation-selected", 24px, 28px);
+  @include icon("apps", 20px, 20px);
+  @include icon("arrow-down", 16px, 16px);
+  @include icon("arrow-down-white", 16px, 16px);
+  @include icon("arrow-left", 16px, 16px);
+  @include icon("arrow-left-white", 16px, 16px);
+  @include icon("arrow-right", 16px, 16px);
+  @include icon("arrow-right-white", 16px, 16px);
+  @include icon("arrow-up", 16px, 16px);
+  @include icon("check-purple", 10px, 10px);
+  @include icon("check-white", 10px, 10px);
+  @include icon("check-grey", 10px, 10px);
+  @include icon("close-bold", 16px, 16px);
+  @include icon("close-hover", 24px, 24px);
+  @include icon("close", 24px, 24px);
+  @include icon("dot-action", 16px, 16px);
+  @include icon("edit", 20px, 20px);
+  @include icon("menu", 32px, 32px);
+  @include icon("navbar", 16px, 16px);
+  @include icon("news", 28px, 32px);
+  @include icon("waiting", 40px, 40px);
+  @include icon("remand", 40px, 40px);
+  @include icon("draft", 40px, 40px);
+  @include icon("download", 16px, 16px);
+  @include icon("download-disabled", 16px, 16px);
+  @include icon("in-progress", 40px, 40px);
+  @include icon("approval", 40px, 40px);
+  @include icon("denial", 40px, 40px);
+  @include icon("request", 20px, 24px);
+  @include icon("request-list", 24px, 28px);
+  @include icon("approval-list", 24px, 28px);
+  @include icon("labor-menu", 24px, 28px);
+  @include icon("settings", 24px, 28px);
+  @include icon("avatar", 24px, 28px);
+  @include icon("user-avatar", 24px, 28px);
+  @include icon("request-list-selected", 24px, 28px);
+  @include icon("approval-list-selected", 24px, 28px);
+  @include icon("labor-menu-selected", 24px, 28px);
+  @include icon("settings-selected", 24px, 28px);
+  @include icon("news-selected", 28px, 32px);
+  @include icon("avatar-selected", 24px, 28px);
+  @include icon("search", 16px, 20px);
+  @include icon("search-white", 16px, 20px);
+  @include icon("calendar", 16px, 16px);
+  @include icon("back", 16px, 16px);
+  @include icon("back-white", 16px, 16px);
+  @include icon("link", 16px, 16px);
+  @include icon("link-new-window", 16px, 16px);
+  @include icon("link-new-window-grey", 16px, 16px);
+  @include icon("help", 24px, 24px);
+  @include icon("status-a", 24px, 24px);
+  @include icon("status-b", 24px, 24px);
+  @include icon("tag", 11px, 11px);
+  @include icon("tag-user", 11px, 11px);
+}

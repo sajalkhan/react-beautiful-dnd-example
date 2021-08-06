@@ -1,0 +1,66 @@
+@import "../../styles/index.scss";
+.m-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & > .a-button {
+    position: relative;
+    margin-right: 6px;
+    margin-left: 6px;
+
+    @include sp() {
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  /* stylelint-disable no-descending-specificity */
+  &--border {
+    @include sp() {
+      width: 100%;
+    }
+
+    & > .a-button {
+      margin-right: 16px;
+
+      &:not(:first-child) {
+        margin-left: 16px;
+        &::before {
+          position: absolute;
+          left: -16px;
+          width: 1px;
+          height: 16px;
+          content: "";
+          background-color: $color-grey-3;
+
+          @include sp() {
+            height: 32px;
+          }
+        }
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &--veritcal {
+    @include sp() {
+      flex-direction: column-reverse;
+      & > .a-button {
+        &:not(:last-child) {
+          margin-top: 9px;
+        }
+      }
+    }
+  }
+}

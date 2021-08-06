@@ -1,0 +1,47 @@
+@import "../../styles/index.scss";
+
+.o-fixed-control {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: $zindex-toast;
+  width: 100%;
+  min-height: 0;
+  padding: 20px 20px 48px;
+  padding-right: env(safe-area-inset-right);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  visibility: hidden;
+  background-color: gainsboro;
+  opacity: 0;
+
+  @include transitions(
+    (transform, opacity, min-height, visibility),
+    0.5s ease-in-out
+  );
+
+  &--visible {
+    min-height: 124px;
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  &--hidden {
+    transform: translateY(124px);
+  }
+
+  &--single-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  &--btn-container {
+    .m-button-container {
+      justify-content: center;
+    }
+  }
+
+  .a-button {
+    max-width: 163px;
+  }
+}

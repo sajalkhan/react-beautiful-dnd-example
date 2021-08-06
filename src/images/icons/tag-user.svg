@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="11" viewBox="0 0 10 11">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="imageMask" width="10" height="11" transform="translate(124 5957)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_56" data-name="グループ 56" transform="translate(-124 -5957)" clip-path="url(#clip-path)">
+    <g id="グループ_56-2" data-name="グループ 56" transform="translate(125.111 5957.55)">
+      <g id="長方形_1048" data-name="長方形 1048" transform="translate(0 6.6)" fill="#fff" stroke="#6592d9" stroke-linejoin="round" stroke-width="1">
+        <rect width="7.778" height="9.9" rx="3" stroke="none"/>
+        <rect x="0.5" y="0.5" width="6.778" height="8.9" rx="2.5" fill="none"/>
+      </g>
+      <g id="長方形_1048-2" data-name="長方形 1048" transform="translate(1.111)" fill="#fff" stroke="#6592d9" stroke-linejoin="round" stroke-width="1">
+        <ellipse cx="2.778" cy="2.75" rx="2.778" ry="2.75" stroke="none"/>
+        <ellipse cx="2.778" cy="2.75" rx="2.278" ry="2.25" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
